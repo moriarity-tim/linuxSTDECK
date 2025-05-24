@@ -1,3 +1,5 @@
 # linuxSTDECK
 
-Building Python Environment on Steam Deck Linux
+Python Environment
+
+Steam Deck Linux
