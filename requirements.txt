@@ -1,0 +1,8 @@
+requests
+pytest
+Flask
+click
+pydantic
+fastapi
+poetry
+uv
