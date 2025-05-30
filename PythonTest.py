@@ -7,7 +7,7 @@ def test_multiply_positive_numbers():
 def test_multiply_negative_numbers():
     assert multiply(-1, -2) == 2
 
-def test_multiply_negative&positive_numbers():
+def test_multiply_NegativeAndPositive_number():
     assert multiply(-1, 4) == -4
 
 def test_multiply_zero():
