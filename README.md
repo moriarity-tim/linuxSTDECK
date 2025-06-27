@@ -16,3 +16,4 @@ This can also be done manually on the github actions tab of the page located her
 
 https://github.com/moriarity-tim/linuxSTDECK/actions
 
+HW#2 CI/CD 
