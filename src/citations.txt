@@ -1,0 +1,27 @@
+Citations 
+
+HW #2 
+
+Google AI
+
+"Create a REST API with endpoints for GET, POST, PUT, and DELETE verbs, and tests for each endpoint. The endpoints should return appropriate status codes (e.g. 200 on successful GET), and tests should assert this behavior. Consider using test-driven development to write the software. Create two Dockerfiles and corresponding shell scripts: one will run the REST API until manually stopped, the other will run the tests and exit with a zero status if the tests pass and a non-zero status if the tests fail. Put the code, Dockerfiles, and shell scripts into a repository, and enable automatic and manual runs of the tests using a workflow"
+
+HW #3
+
+Google AI
+
+"Cloud architectures involve coordination of multiple services and resources, such as an application, databases, and object storage. Members of software development teams can use containers to write and test behaviors on their own computers in a way that will work on others (including CI/CD and deployment targets), and often use Docker Compose to orchestrate and manage multiple containers.
+
+In the last assignment, you created a REST API with endpoints for GET, POST, PUT, and DELETE verbs, and tests for each endpoint. Make sure the POST and PUT endpoints accept JSON. Add functionality to create, read, update, and destroy items in a DynamoDB table and an S3 bucket. Use Localstack to run a mock of AWS as part of your application stack. Create two compose files and corresponding shell scripts: one will run the stack until manually stopped, the other will run the tests and exit with a zero status if the tests pass and a non-zero status if the tests fail. Put all relevant files into a repository, and enable automatic and manual runs of the tests using a workflow.
+
+Tests should cover at least these cases:
+- Sending a GET request with appropriate parameters returns expected JSON from the database
+- Sending a GET request that finds no results returns the appropriate response
+- Sending a GET request with no parameters returns the appropriate response
+- Sending a GET request with incorrect parameters returns the appropriate response
+- Sending a POST request results in the JSON body being stored as an item in the database, and an object in an S3 bucket
+- Sending a duplicate POST request returns the appropriate response
+- Sending a PUT request that targets an existing resource results in updates to the appropriate item in the database and object in the S3 bucket
+- Sending a PUT request with no valid target returns the appropriate response
+- Sending a DELETE request results in the appropriate item being removed from the database and object being removed from the S3 bucket
+- Sending a DELETE request with no valid target returns the appropriate response"
