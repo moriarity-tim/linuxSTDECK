@@ -39,10 +39,10 @@ jobs:
           pip install -r requirements.txt
       
       # Run Test Python Script
-      #- name: Execute Python Script
-      #  run: python tests/test_app.py
+      - name: Execute Python Script
+        run: python tests/test_app.py
 
       # Run Test2 Python Script
-      - name: Execute Python Script
-        run: python tests/tests.py
+      #- name: Execute Python Script
+      #  run: python tests/tests.py
         
