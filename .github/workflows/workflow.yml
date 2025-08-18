@@ -40,5 +40,5 @@ jobs:
       
       # Run Python Script
       - name: Execute Python Script
-        run: python test_app.py
+        run: python tests/test_app.py
         
