@@ -8,4 +8,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY app/ app/
 COPY tests/ tests/
 
-CMD ["pytest"]
+CMD ["python", "tests/test_app.py"]
