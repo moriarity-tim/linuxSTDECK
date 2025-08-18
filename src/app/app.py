@@ -4,6 +4,9 @@ import os
 
 app = Flask(__name__)
 
+# Load environment variables (replace with your preferred loading mechanism)
+from dotenv import load_dotenv
+load_dotenv()
 
 # Initialize DynamoDB and S3 clients
 dynamodb = boto3.client('dynamodb', region_name=os.getenv('AWS_REGION'))
