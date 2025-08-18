@@ -2,7 +2,6 @@ pytest
 requests
 Flask
 boto3
-unittest
 #click
 #pydantic
 #fastapi
