@@ -1,7 +1,7 @@
 import unittest
 import json
 from unittest.mock import MagicMock
-from app import Oneapp, dynamodb, s3, DYNAMODB_TABLE_NAME, S3_BUCKET_NAME
+from src.app import Oneapp, dynamodb, s3, DYNAMODB_TABLE_NAME, S3_BUCKET_NAME
 
 class TestAPI(unittest.TestCase):
     def setUp(self):
