@@ -1,5 +1,5 @@
 import unittest
-from app/app2 import app, dynamodb_handler, s3_handler
+from app import app2, dynamodb_handler, s3_handler
 import json
 
 class APITestCase(unittest.TestCase):
